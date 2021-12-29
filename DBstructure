@@ -1,0 +1,28 @@
+users
+====
+id  name    email   password    image(nullable)
+
+languages
+========
+id  slug    name    
+
+category
+========
+id     slug        name
+
+articles
+=======
+id  slug    title   image        description       category_id      user_id
+
+article_language
+================
+article_id      language_id
+
+article_like
+============
+user_id     article_id
+
+
+article_comment
+============
+user_id     article_id      comment
